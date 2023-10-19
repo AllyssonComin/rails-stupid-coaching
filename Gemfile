@@ -27,8 +27,8 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-# # psych
-# gem 'psych'
+# Bootstrap gem for fronto end [https://getbootstrap.com/]
+gem 'bootstrap', '~> 5.2.3'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

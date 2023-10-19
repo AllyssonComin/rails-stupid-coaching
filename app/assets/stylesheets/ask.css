@@ -1,0 +1,28 @@
+.container-box {
+  text-align: center;
+  margin: 100px;
+  color: black;
+  /* width: 500px; */
+  justify-content: center;
+}
+
+.answer-board {
+  background-color: antiquewhite;
+  justify-content: center;
+  color: black;
+  padding: 30px 50px 20px 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.3);
+  margin: 50px;
+}
+
+.answer-board p {
+  color: gray;
+  text-align: end;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

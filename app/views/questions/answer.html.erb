@@ -1,0 +1,14 @@
+<div class="container-box">
+  <h1>Stuped Coach</h1>
+  <%# user ask %>
+  <div class="answer-board">
+    <h3><%= params[:ask] %></h3>
+    <p>Your messege</p>
+  </div>
+  <%# coach answer %>
+  <div class="answer-board">
+    <h3><%= @answer %></h3>
+    <p>Stuped Coach</p>
+  </div>
+    <%= link_to "Something else", ask_path  %>
+</div>
